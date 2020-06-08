@@ -1,15 +1,15 @@
 <?php
 
-namespace App\Modules\Tenancy\Providers;
+namespace Tenancy\Providers;
 
-use App\Modules\Tenancy\ActiveTenant;
-use App\Modules\Tenancy\Extensions\TenantGuard;
-use App\Modules\Tenancy\Extensions\TenantUserProvider;
+use Tenancy\ActiveTenant;
+use Tenancy\Extensions\TenantGuard;
+use Tenancy\Extensions\TenantUserProvider;
 use Illuminate\Routing\UrlGenerator;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\ServiceProvider;
-use App\Modules\Tenancy\Contracts\TenantContract;
+use Tenancy\Contracts\TenantContract;
 use Event;
 
 class TenantServiceProvider extends ServiceProvider

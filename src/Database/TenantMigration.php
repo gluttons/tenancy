@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Modules\Tenancy\Database;
+namespace Tenancy\Database;
 
 class TenantMigration
 {

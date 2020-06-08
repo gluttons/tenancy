@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Modules\Tenancy\Traits;
+namespace Tenancy\Traits;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Validation\UnauthorizedException;
-use App\Modules\Tenancy\Scopes\TenantScope;
+use Tenancy\Scopes\TenantScope;
 
 trait Tenant {
 

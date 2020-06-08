@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Modules\Tenancy;
+namespace Tenancy;
 
-use App\Modules\Tenancy\Exceptions\TenantNotFoundException;
-use App\Modules\Tenancy\Exceptions\TenantNotActiveException;
+use Tenancy\Exceptions\TenantNotFoundException;
+use Tenancy\Exceptions\TenantNotActiveException;
 
 class ActiveTenant
 {

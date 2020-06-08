@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Modules\Tenancy\Exceptions;
+namespace Tenancy\Exceptions;
 
 use Exception;
 

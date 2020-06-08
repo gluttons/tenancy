@@ -1,5 +1,5 @@
 <?php
-namespace App\Modules\Tenancy\Middleware;
+namespace Tenancy\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;

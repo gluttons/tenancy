@@ -1,9 +1,9 @@
 <?php
-namespace App\Modules\Tenancy\Middleware;
+namespace Tenancy\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
-use App\Modules\Tenancy\Tenant;
+use Tenancy\Tenant;
 use ActiveTenant;
 
 class HomeMiddleware {

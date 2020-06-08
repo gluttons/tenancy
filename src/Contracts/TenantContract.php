@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Modules\Tenancy\Contracts;
+namespace Tenancy\Contracts;
 
 interface TenantContract
 {

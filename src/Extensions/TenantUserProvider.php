@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Modules\Tenancy\Extensions;
+namespace Tenancy\Extensions;
 
 use Illuminate\Auth\EloquentUserProvider;
 use Illuminate\Support\Str;
